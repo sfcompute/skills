@@ -1,0 +1,14 @@
+{
+  "name": "sfcompute-skills",
+  "owner": {
+    "name": "SF Compute",
+    "email": "support@sfcompute.com"
+  },
+  "plugins": [
+    {
+      "name": "sfcompute",
+      "source": ".",
+      "description": "SF Compute skills for agents: the SF Compute CLI (`sf`) for buying and selling GPU compute, managing capacities, instances, orders, images, and deployments."
+    }
+  ]
+}
