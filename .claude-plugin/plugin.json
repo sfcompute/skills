@@ -1,0 +1,24 @@
+{
+  "name": "sfcompute",
+  "displayName": "SF Compute",
+  "description": "Buy and Sell GPUs",
+  "version": "0.0.1",
+  "author": {
+    "name": "SF Compute",
+    "email": "support@sfcompute.com"
+  },
+  "homepage": "https://sfcompute.com",
+  "repository": "https://github.com/sfcompute/skills",
+  "license": "MIT",
+  "skills": "./sf-cli/",
+  "keywords": [
+    "sf",
+    "cli",
+    "gpu",
+    "buy",
+    "sell",
+    "instance",
+    "image",
+    "ssh"
+  ]
+}
