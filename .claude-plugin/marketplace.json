@@ -5,7 +5,7 @@
       "name": "sfcompute",
       "displayName": "SF Compute",
       "source": ".",
-      "description": "SF Compute skills for agents: the SF Compute CLI (`sf`) for buying and selling GPU compute, managing capacities, instances, orders, images, and deployments.",
+      "description": "Skill for buying, selling, and managing GPU compute on SF Compute from Claude.",
       "category": "productivity"
     }
   ]

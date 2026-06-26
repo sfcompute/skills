@@ -1,7 +1,7 @@
 {
   "name": "sfcompute",
   "version": "0.0.1",
-  "description": "SF Compute CLI skill for buying, selling, and managing GPU compute from Codex.",
+  "description": "Buy GPUs for a day or a year. Resell excess compute whenever you want.",
   "author": {
     "name": "SF Compute",
     "email": "support@sfcompute.com"
@@ -24,19 +24,19 @@
   "interface": {
     "displayName": "SF Compute",
     "shortDescription": "Use the SF Compute CLI from Codex.",
-    "longDescription": "Adds the sf-cli skill so Codex can install, authenticate, and use the SF Compute CLI to manage capacities, instances, orders, images, procurements, and deployments.",
+    "longDescription": "Skill for buying, selling, and managing GPU compute on SF Compute from Codex.",
     "developerName": "SF Compute",
     "category": "Productivity",
     "capabilities": [
       "Read",
       "Write"
     ],
+    "logo": "./assets/logo.svg",
     "websiteURL": "https://sfcompute.com",
     "defaultPrompt": [
       "Install the SF Compute CLI and log me in.",
       "List my SF Compute instances as JSON.",
-      "Check current GPU availability and pricing.",
-      "Create an order to sell my idle capacity."
+      "Check current GPU availability and pricing."
     ]
   }
 }
