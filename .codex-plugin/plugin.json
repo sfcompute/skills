@@ -1,0 +1,42 @@
+{
+  "name": "sfcompute",
+  "version": "0.0.1",
+  "description": "SF Compute CLI skill for buying, selling, and managing GPU compute from Codex.",
+  "author": {
+    "name": "SF Compute",
+    "email": "support@sfcompute.com"
+  },
+  "homepage": "https://sfcompute.com",
+  "repository": "https://github.com/sfcompute/skills",
+  "license": "MIT",
+  "keywords": [
+    "sf",
+    "sfcompute",
+    "cli",
+    "gpu",
+    "buy",
+    "sell",
+    "capacity",
+    "instance",
+    "order"
+  ],
+  "skills": "./sf-cli",
+  "interface": {
+    "displayName": "SF Compute",
+    "shortDescription": "Use the SF Compute CLI from Codex.",
+    "longDescription": "Adds the sf-cli skill so Codex can install, authenticate, and use the SF Compute CLI to manage capacities, instances, orders, images, procurements, and deployments.",
+    "developerName": "SF Compute",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://sfcompute.com",
+    "defaultPrompt": [
+      "Install the SF Compute CLI and log me in.",
+      "List my SF Compute instances as JSON.",
+      "Check current GPU availability and pricing.",
+      "Create an order to sell my idle capacity."
+    ]
+  }
+}
