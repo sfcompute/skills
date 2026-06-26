@@ -1,7 +1,7 @@
 {
   "name": "sfcompute",
   "displayName": "SF Compute",
-  "description": "Buy and Sell GPUs",
+  "description": "Buy GPUs for a day or a year. Resell excess compute whenever you want.",
   "version": "0.0.1",
   "author": {
     "name": "SF Compute",
@@ -19,6 +19,9 @@
     "sell",
     "instance",
     "image",
-    "ssh"
+    "ssh",
+    "capacity",
+    "pool",
+    "order"
   ]
 }
