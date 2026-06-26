@@ -43,26 +43,20 @@ Inside Claude CLI:
 1. Input `sfcompute/skills` and hit **Sync**.
 1. When the UI refreshes, install the SF Compute plugin with the `+` b
 
-After installation, try a task that should trigger one of the skills:
+Invoke using `/sf-cli` on Claude.
 
-- "Install the SF Compute CLI and log me in."
-- "List my SF Compute instances as JSON."
-- "Check current GPU availability and pricing."
-- "Buy compute for a training run this weekend."
-- "Create an order to sell my idle capacity."
-- Invoke using `/sf-cli`
+### Codex
 
-## Features
+With Codex CLI:
 
-Use this skill when you need to:
+```bash
+codex plugin marketplace add sfcompute/skills
+codex plugin install sfcompute@sfcompute-skills
+```
 
-- install, upgrade, or authenticate the SF Compute CLI
-- run CRUD operations on instances, orders, capacities, images and other resources
-- check availability, billing, events, and limits
-- buy or sell GPU compute from the terminal
-
-Example prompts:
+## Example prompts
 
 - "Install the SF Compute CLI on macOS."
 - "Log into SF Compute and show my account."
 - "Show GPU availability and create a buy order."
+- "Buy compute for a training run this weekend."
