@@ -45,18 +45,32 @@ Inside Claude CLI:
 
 Invoke using `/sf-cli` on Claude.
 
-### Codex
-
-With Codex CLI:
+### Codex CLI
 
 ```bash
 codex plugin marketplace add sfcompute/skills
 codex plugin install sfcompute@sfcompute-skills
 ```
 
+### Codex Desktop
+
+1. Click on Plugins in the left side bar
+2. Hit the drop-down `next to the +` button and select 'Add Marketplace'
+3. Input `sfcompute/skills` and click `Add marketplace`
+4. Install `SF Compute` plugin
+
+Use `@sfcompute` to invoke the plugin explicitly.
+
+### Cursor
+
+1. Go to `Settings` > `Plugins` in the desktop app
+2. Paste `https://github.com/sfcompute/skills` in the text box with placeholder text that says "Search or Paste Link"
+3. Click on the `SF Compute` plugin that appears and hit `Add to Cursor`
+
 ## Example prompts
 
 - "Install the SF Compute CLI on macOS."
 - "Log into SF Compute and show my account."
 - "Show GPU availability and create a buy order."
+- "Create a new capacity named golden-gate."
 - "Buy compute for a training run this weekend."
